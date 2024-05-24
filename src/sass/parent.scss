@@ -1,0 +1,45 @@
+@import 'keyframes.scss';
+
+h2 {
+    font-size: 2rem;
+    text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 10px #6995af, 0 0 10px #6995af;
+    animation: slideInFromRight 1.5s ease forwards;
+}
+
+.playerNameContainer {
+    margin: auto;
+    width: 25rem;
+    height: 10rem;
+    border-radius: 2rem;
+    border: 0.01rem solid black;
+    background-color: rgba(255, 255, 255, 0.548);
+    animation: slideInFromRight 1.5s ease forwards;
+    
+    h4 {
+        font-size: 1.8rem;
+        text-decoration: underline;
+        // color: white;
+        line-height: 1rem;
+    }
+}
+
+.hideGameClass {
+    display: none;
+}
+
+.hidePlayers {
+    display: none;
+}
+
+.showPlayers {
+    display: block;
+}
+
+
+@media screen and (max-width: 47.94rem) { 
+
+    .playerNameContainer {
+        width: 20rem;
+    }
+
+}

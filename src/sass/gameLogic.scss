@@ -1,0 +1,110 @@
+@import 'keyframes.scss';
+
+.fontContainer {
+  display: flex;
+  flex-direction: column;
+  // gap: 2em;
+  margin-bottom: 2em;
+  letter-spacing: 2px;
+  width: 20rem;
+  
+  h1 {
+    margin:-3rem 0 3rem 0;
+    // text-decoration: underline;
+    color: black;
+    text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 10px #6995af, 0 0 10px #6995af, 0 0 10px #6995af, 0 0 10px #6995af, 0 0 25px #6995af;
+  }
+  .score {
+    font-size: 2rem;
+    border: 0.1rem solid black;
+    background-color: white;
+    width: 15rem;
+    margin: auto;
+  }
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  animation: fadeIn 1.5s ease;
+  
+  .currentPlayer, .drawTxt {
+    font-size: 1.5rem;
+    margin-bottom: -1rem;
+    text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 10px #c63737, 0 0 10px 
+ 
+  }
+
+  .winningText {
+    text-align: center;
+    color: color(srgb red green blue);
+    text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 10px #0099ff, 0 0 10px #0099ff, 0 0 10px #0099ff, 0 0 10px #0099ff, 0 0 25px #0099ff;
+  }
+
+
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 0.01rem solid black;
+    max-width: 15rem;
+    background-color: white;
+    margin-bottom: 1rem;
+    
+    .flexContainer {
+      
+    .flexChild {
+    height: 5rem;
+    display: flex;
+    width: 4.8rem;
+    cursor: pointer;
+    font-size: 2.25rem;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    
+    &:hover {
+      box-shadow: 0 0 10px rgb(0, 133, 190);
+    }
+  }
+}
+}
+  .btnContainer{
+   display: flex;
+
+    .retryGameBtn,
+    .quitBtn,
+    .showHistoryBtn {
+      border: 0.1rem solid black;
+      margin: 0.1rem;
+      padding: 0.6rem;
+      transition: 0.3s;
+    }
+
+    .retryGameBtn{
+      &:hover{
+        color: white;
+        background-color: rgb(0, 0, 255);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+      }
+    }
+
+    .showHistoryBtn {
+      &:hover {
+        background-color: rgb(255, 255, 0);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+      }
+    }
+
+    .quitBtn{
+      &:hover{
+        color: white;
+        background-color: red;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+      }
+    }
+  }
+}

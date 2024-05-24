@@ -1,0 +1,46 @@
+.formContainer {
+  margin-top: -3rem;
+}
+
+h1 {
+  color: black;
+  text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 10px #6995af, 0 0 10px #6995af, 0 0 10px #6995af, 0 0 10px #6995af, 0 0 25px #6995af;
+}
+
+::-moz-placeholder {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  width: 13rem;
+  background-color: rgba(0, 0, 0, 0.601);
+}
+
+input, ::placeholder {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  width: 13rem;
+  background-color: rgba(0, 0, 0, 0.601);
+}
+
+input {
+  color: white;
+}
+input:focus::-moz-placeholder {
+  opacity: 0;
+}
+input:focus::placeholder {
+  opacity: 0;
+}
+
+button {
+  display: block;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.852);
+  color: white;
+}
+button:hover {
+  text-shadow: 0 0 5px #fff, 0 0 5px #0099ff, 0 0 10px #0099ff, 0 0 10px #0099ff;
+}/*# sourceMappingURL=addPlayer.css.map */

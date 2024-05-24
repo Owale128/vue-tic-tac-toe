@@ -1,0 +1,25 @@
+h2 {
+  font-size: 2rem;
+}
+
+.playerNameContainer {
+  height: 10rem;
+  border: 0.01rem solid black;
+  border-radius: 2rem;
+}
+.playerNameContainer h4 {
+  font-size: 1.8rem;
+  text-decoration: underline;
+}
+
+.hideGameClass {
+  display: none;
+}
+
+.hidePlayers {
+  display: none;
+}
+
+.showPlayers {
+  display: block;
+}/*# sourceMappingURL=parent.css.map */

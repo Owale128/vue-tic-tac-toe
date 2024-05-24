@@ -29,6 +29,11 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image: url('https://cdn.pixabay.com/photo/2024/03/29/02/30/ai-generated-8662021_1280.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+
 }
 
 h1 {
