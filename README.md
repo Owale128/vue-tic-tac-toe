@@ -3,7 +3,7 @@
 You can visit the page at: https://tictactoevuegame.netlify.app/
 
 # Stack:
-[![My Skills](https://skillicons.dev/icons?i=vite,vue,ts,css,sass)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=vite,vue,ts,sass)](https://skillicons.dev)
 # Inlämningsuppgift Tre-i-rad
 
 Denna mall innehåller ett tomt vue-projekt baserat på typescript. Er uppgift är att skapa spelet tre-i-rad med hjälp av denna mall. Eftersom ni inte har någonting att utgå ifrån så har ni fria händer att skapa just er unika lösning.
