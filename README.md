@@ -1,4 +1,6 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/sJ43pknV)
+# Tic Tac Toe Game (Vue3) 😃
+![TicTacToe](https://github.com/Owale128/vue-tic-tac-toe/assets/110387474/c8268ea9-4462-4e12-967c-2157d73437b0)
+
 # Inlämningsuppgift Tre-i-rad
 
 Denna mall innehåller ett tomt vue-projekt baserat på typescript. Er uppgift är att skapa spelet tre-i-rad med hjälp av denna mall. Eftersom ni inte har någonting att utgå ifrån så har ni fria händer att skapa just er unika lösning.
