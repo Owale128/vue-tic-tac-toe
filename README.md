@@ -1,6 +1,6 @@
 # Tic Tac Toe Game (Vue3) 😃
 ![TicTacToe](https://github.com/Owale128/vue-tic-tac-toe/assets/110387474/c8268ea9-4462-4e12-967c-2157d73437b0)
-Link to the game: https://tictactoevuegame.netlify.app/
+You can visit the page at: https://tictactoevuegame.netlify.app/
 
 # Stack:
 [![My Skills](https://skillicons.dev/icons?i=vite,vue,ts,css,sass)](https://skillicons.dev)
