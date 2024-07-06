@@ -1,5 +1,5 @@
 # Tic Tac Toe Game (Vue3) 😃
-![TicTacToe](https://github.com/Owale128/vue-tic-tac-toe/assets/110387474/4d210f00-5b25-4628-8f0f-d594d9990ad4)
+![TicTacToe](https://github.com/Owale128/MovieSearch-React/assets/110387474/a4693474-a81b-49f4-b990-e295f1c94554)
 
 # Inlämningsuppgift Tre-i-rad
 
