@@ -125,11 +125,20 @@ const loadGame = () => {
 
 const resetScore = () => {
   gameHistory.value = []
+  localStorage.setItem('scores', JSON.stringify(scores.value));
   localStorage.setItem('gameHistory', JSON.stringify(gameHistory.value));
 }
 
+const loadScores = () => {
+  const storedScores = localStorage.getItem('scores');
+  if (storedScores) {
+    scores.value = JSON.parse(storedScores);
+  }
+};
+
 onMounted(() => {
   loadGame();
+  loadScores();
 });
 </script>
 
