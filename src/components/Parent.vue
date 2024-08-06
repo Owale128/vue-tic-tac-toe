@@ -16,7 +16,7 @@ const addPlayer = (playerName: string) => {
         const symbol = playerList.value.length === 0 ? 'X' : 'O'; 
         playerList.value.push({ name: playerName, symbol: symbol })
     } else {
-        alert('Maximal antal spelare')
+        alert('Maximum number of players')
     }
 
     localStorage.setItem('players', JSON.stringify(playerList.value));
