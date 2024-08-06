@@ -47,7 +47,6 @@ onMounted(() => {
     <div>
         <AddPlayer @add-player="addPlayer" @start-btn="startGameBtn" v-if="!hideGame" />
         <div v-if="!hideGame">
-            <h2> Spelare:</h2>
             <div class="playerNameContainer">
                 <h4 v-for="(player, index) in playerList" :key="index"> {{ player.name }} - {{ player.symbol }} </h4>
             </div>

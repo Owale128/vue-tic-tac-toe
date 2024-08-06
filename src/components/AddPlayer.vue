@@ -36,7 +36,7 @@ const showAndHideBtn = () => {
     <div class="formContainer">
         <h1>Add player {{ currentPlayer }} </h1>
         <form @submit.prevent="addingPlayer">
-            <input v-model="inputValue" type="text" placeholder="Add name" maxlength="10">
+            <input v-model="inputValue" type="text" placeholder="Enter name" maxlength="10">
             <button v-show="registerBtn" type="submit">Add</button>
             <button v-show="startBtn" @click="startGameBtn">Start game</button>
         </form>
