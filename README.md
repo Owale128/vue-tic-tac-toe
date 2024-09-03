@@ -2,7 +2,7 @@
 
 ![TicTacToe](https://github.com/Owale128/vue-tic-tac-toe/assets/110387474/c8268ea9-4462-4e12-967c-2157d73437b0)
 
-You can visit the page at: https://tictactoevuegame.netlify.app/
+Link: https://tictactoevuegame.netlify.app/
 
 # Stack:
 [![My Skills](https://skillicons.dev/icons?i=vite,vue,ts,sass,netlify)](https://skillicons.dev)
